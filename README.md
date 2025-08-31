@@ -112,3 +112,29 @@ The following use diagram illustrates the interactions in the booking management
 - Cancel Booking 
 - Manage Bookings (Admin)
 - Process Payment
+
+## Acceptance Criteria
+
+### What is Acceptance Criteria?
+Acceptance Criteria are the predefined conditions that a software product must satisfy in order to be accepted by a user, customer, or other stakeholders. They serve as a checklist to confirm whether the functionality of a feature works as intended and meets the agreed-upon requirements.
+
+### Importance of Acceptance Criteria
+- Ensures a **clear and shared understanding** between stakeholders and developers.  
+- Defines the **boundaries of a user story or feature**.  
+- Provides a **basis for testing** (used in User Acceptance Testing).  
+- Reduces **ambiguity and miscommunication** during development.  
+- Serves as a **reference point** for validation and verification.  
+
+### Example: Checkout Feature in Booking Management System
+**Feature:** Checkout process for users to complete their booking.  
+
+**Acceptance Criteria:**  
+- User must be able to view all items in their booking before checkout.  
+- System must display the total cost (including taxes and discounts).  
+- User must be able to choose a payment method (e.g., credit card, PayPal).  
+- System must validate payment details before confirming the booking.  
+- Successful checkout must generate a booking confirmation with a unique booking ID.  
+- User must receive an email confirmation within 5 minutes of successful checkout.  
+- If payment fails, the system must display an error message and allow retry.  
+
+---
