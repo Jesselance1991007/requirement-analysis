@@ -61,12 +61,26 @@ The goal is to  ensure no critical requirement is missing, ambiguous, or misunde
 
 ---
 
-## Why Requirement Analysis?
-Requirement analysis is a critical phase in the software development lifecycle (SDLC).
-It ensures that developers, stakeholders, and clients have a shared understanding of the system being built.
+## 4. Types of Requirements 
+In software engineering, requirements are generally categorised into **Functional Requirements** and **Non-Functional Requirements**. Both play a critical role in defining the scope, design, and performance of system.
 
-key benefits include:
-1 **Clarity** - Define what the system should do.
-**Accuracy** - Reduces misunderstandings between developers and clients.
-**Planning** - Provides a foundation for system design, development, and testing.
-**Risk Reduction** - Identifies constraints, risks, and dependencies early .
+### Functional Requirements 
+ functional requirements describe **what the system should do**. They define specific features, services, and busines logic of the application. 
+
+ **Examples for Booking Management Project:**
+ - The system must allow users to **register and log in** with a valid email and password.
+ - The system should allow users to **search available bookings** by date, location or service type. 
+ - The system must allow users to **create a new booking**
+ - The system should allow users to **View, Update, or cancel** their bookings.
+ - The system should send **email or SMS notifications** after succesful booking confirmation or cancellation 
+
+ #### Non-functional Requirements
+ Non-functional requirements describe **how the system performs its functions**. They define the system's quality attributes, performance, and constraints. 
+
+ **Examples for Booking Management project:**
+ - The system should handle **1,000 concurrent users** without performance degradation.
+ - The system should ensure **data security** by encripting sensitive user information.
+ - The system must maintain **99.9% uptime availability** .
+ - Response time for searching bookings should not exceed **2 seconds**
+ - The system should be **mobile-friendly** and accessible on multiple devices. 
+
