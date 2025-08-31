@@ -25,7 +25,7 @@ During requirement analysis, software engineers and business analysts work close
 - **Constraints and assumptions** the system must adhere to.
 
 
-### Importance of Requirement Analysis 
+### Why is Requirement Analysis important?
 1. **Prevents misunderstandings** - ensures that developers and stakeholders share a common understanding of project goals. 
 2. **Saves cost and time** - identifying errors or ambuiguities early in project avoids expensive rework later.
 3. **Provides a foundation for design and development** - accurate requirements make it easier to design and build the right product.
@@ -49,4 +49,4 @@ key benefits include:
 1 **Clarity** - Define what the system should do.
 **Accuracy** - Reduces misunderstandings between developers and clients.
 **Planning** - Provides a foundation for system design, development, and testing.
-**Risk Reduction** - Identifie constraints, risks, and dependencies early .
+**Risk Reduction** - Identifies constraints, risks, and dependencies early .
