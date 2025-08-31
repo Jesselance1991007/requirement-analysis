@@ -84,3 +84,31 @@ In software engineering, requirements are generally categorised into **Functiona
  - Response time for searching bookings should not exceed **2 seconds**
  - The system should be **mobile-friendly** and accessible on multiple devices. 
 
+## Use Case Diagrams
+**Definition**
+A **Use Case Diagram** is a visual representation of the functional requirements of a system. It shows the interactions between **actors** (users or external systems) and the **use cases** (system functions) that they perform.
+
+**Benefits of Use Case Diagrams**
+- Provides a high-level overview of the system functionality.
+- Helps stakeholders understand system interactions.
+- Clarifies roles of users and external systems.
+- Serves as a foundation for identifying functional requirements.
+
+**Use Case Diagram for Booking Management System**
+
+The following use diagram illustrates the interactions in the booking management system:
+![Booking Use Case Diagram](alx-booking-uc.png)
+
+**Actors:**
+- **Customer** : Makes and manages bookings.
+- **Admin** : Manages bookings and user accounts.
+- **Payment System** : Handles payments.
+
+**Use Caes:**
+- Register Account
+- Login
+- Search for Booking
+- Make Booking
+- Cancel Booking 
+- Manage Bookings (Admin)
+- Process Payment
